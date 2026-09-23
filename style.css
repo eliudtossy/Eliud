@@ -477,5 +477,20 @@ footer {
     .footer-container {
         flex-direction: column;
         gap: 5px;
-    }
+    }#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin: 12px 0;
+}
+
+#contact a {
+    text-decoration: none;
+}
 }
