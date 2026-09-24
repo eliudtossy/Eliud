@@ -635,5 +635,10 @@ footer {
         line-height: 1.2;
         overflow-wrap: break-word;
     }
-
+/* WhatsApp Contact Button */
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
 }
