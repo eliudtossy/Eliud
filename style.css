@@ -500,4 +500,89 @@ footer {
     border-radius: 50%;
     display: block;
     margin: 0 auto 20px;
+}/* ==============================
+   CASE STUDIES
+   ============================== */
+
+.case-intro {
+    max-width: 750px;
+    margin-bottom: 40px;
+}
+
+.case-study {
+    border: 1px solid #ddd;
+    padding: 35px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.case-study-header {
+    margin-bottom: 30px;
+}
+
+.case-number {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.case-study-header h3 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.case-study-section {
+    margin-top: 28px;
+}
+
+.case-study-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.case-study-section p {
+    line-height: 1.7;
+}
+
+.case-study-section ul {
+    padding-left: 20px;
+}
+
+.case-study-section li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.case-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.case-tags span {
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .case-study {
+        padding: 22px;
+    }
+
+    .case-study-header h3 {
+        font-size: 23px;
+    }
+
+    .case-tags {
+        gap: 8px;
+    }
+
 }
